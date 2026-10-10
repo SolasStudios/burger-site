@@ -1,3 +1,17 @@
+/*
+ * UPDATE LOG
+ * ----------------------------------------------------------------
+ * 2026-10-10  Kurt   Added this update log.
+ * 2026-10-10  Kurt   Brand name removed from comments; header comment
+ *                    is now neutral.
+ * 2026-10-10  Kurt   Added .fine-print style for the contact section.
+ * 2026-10-10  Kurt   Nav styles fixed to match markup: links are direct
+ *                    children of nav.main-nav; mobile menu opens via .open.
+ * 2026-10-10  Kurt   Initial stylesheet: retro-diner palette (ketchup,
+ *                    mustard, cream, lettuce, charcoal), responsive menu
+ *                    grid, mobile nav toggle at 720px.
+ * ----------------------------------------------------------------
+ */
 /* Bold retro-diner styles */
 :root {
   --ketchup: #D62828;
