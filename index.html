@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Your Burger Joint | Burgers</title>
+  <meta name="description" content="Your Burger Joint, a fictional hamburger company. Demo site only.">
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top">Your Burger Joint</a>
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="mainNav" aria-label="Toggle navigation">Menu</button>
+    <nav class="main-nav" id="mainNav" aria-label="Main">
+      <a href="#top">Home</a>
+      <a href="#menu">Menu</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <h1>Smashed fresh. Served fast.</h1>
+      <p>Six burgers, one griddle, zero fuss. Welcome to Your Burger Joint.</p>
+      <a class="btn" href="#menu">See the menu</a>
+    </section>
+
+    <section id="menu" class="menu">
+      <h2>The Menu</h2>
+      <div class="menu-grid">
+        <article class="menu-item">
+          <h3 class="item-name">Classic</h3>
+          <p class="item-desc">Smashed beef patty, pickles, onion, and our house sauce on a toasted bun.</p>
+          <span class="item-price">$8.99</span>
+        </article>
+        <article class="menu-item">
+          <h3 class="item-name">Cheeseburger</h3>
+          <p class="item-desc">The classic with melted American cheese.</p>
+          <span class="item-price">$9.49</span>
+        </article>
+        <article class="menu-item">
+          <h3 class="item-name">Bacon BBQ</h3>
+          <p class="item-desc">Crispy bacon, smoky BBQ sauce, cheddar, and crunchy onion strings.</p>
+          <span class="item-price">$11.49</span>
+        </article>
+        <article class="menu-item">
+          <h3 class="item-name">Mushroom Swiss</h3>
+          <p class="item-desc">Sauteed mushrooms, Swiss cheese, and garlic aioli.</p>
+          <span class="item-price">$10.99</span>
+        </article>
+        <article class="menu-item">
+          <h3 class="item-name">Spicy Jalapeno</h3>
+          <p class="item-desc">Pepper jack, pickled jalapenos, and a spicy chipotle mayo.</p>
+          <span class="item-price">$10.49</span>
+        </article>
+        <article class="menu-item">
+          <h3 class="item-name">Veggie</h3>
+          <p class="item-desc">House-made veggie patty, lettuce, tomato, and herb spread.</p>
+          <span class="item-price">$9.99</span>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>Visit Us</h2>
+      <p><strong>Address:</strong> 123 Griddle Lane, Springfield (fictional)</p>
+      <p><strong>Hours:</strong> Mon-Thu 11am-9pm, Fri-Sat 11am-11pm, Sun 12pm-8pm</p>
+      <p><strong>Phone:</strong> (555) 010-0199</p>
+      <p class="fine-print">Your Burger Joint is a fictional company. This site is a demo.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year"></span> Your Burger Joint. Fictional demo site.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
